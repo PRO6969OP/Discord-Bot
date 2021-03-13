@@ -10,8 +10,8 @@ run: async (client, message, args) => {
   const member = member.mentions.users.first();
   const nick = args.slice(1).join(' ');
   
-  await member.setNickname(nick)
-  message.channel.send('nickname changed')
+   member.setNickname(nick)
+ 
   
   }
 }
