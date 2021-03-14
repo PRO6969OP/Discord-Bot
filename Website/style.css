@@ -1,14 +1,13 @@
 
   
   .active {
-    background-color: #4CAF50; /* Add an active/current color */
+    background-color: #4CAF50; 
   }
   .topnav {
     overflow: hidden;
     background-color: #dae68d35;
   }
   
-  /* Style the links inside the navigation bar */
   .topnav a {
     float: left;
     display: block;
@@ -19,19 +18,16 @@
     font-size: 20px;
   }
   
-  /* Change the color of links on hover */
   .topnav a:hover {
     background-color: rgb(32, 195, 216);
     color: black;
   }
   
-  /* Style the "active" element to highlight the current page */
   .topnav a.active {
     background-color: #2196F3;
     color: white;
   }
   
-  /* Style the search box inside the navigation bar */
   .topnav input[type=text] {
     float: right;
     padding: 6px;
@@ -41,7 +37,6 @@
     font-size: 17px;
   }
   
-  /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
   @media screen and (max-width: 600px) {
     .topnav a, .topnav input[type=text] {
       float: none;
@@ -61,7 +56,6 @@
     transition: width 0.4s ease-in-out;
   }
   
-  /* When the input field gets focus, change its width to 100% */
   input[type=text]:focus {
     width: 30%;
   }
